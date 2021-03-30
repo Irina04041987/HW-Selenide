@@ -10,7 +10,7 @@ build: off  # будем использовать свой скрипт сбор
 
 install:
   # запускаем SUT (& означает, что в фоновом режиме - не блокируем терминал для запуска тестов)
-  - java -jar ./artifacts/app-order.jar &
+  - java -jar -port=7777 ./artifacts/app-order.jar &
 
 build_script:
   - ./gradlew test --info "-Dselenide.headless=true"  # стартуем Selenide в Headless-режиме
