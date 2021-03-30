@@ -1,1 +1,1 @@
-![image](https://user-images.githubusercontent.com/74503846/112662948-52651a80-8e69-11eb-8050-10bfb13bfc50.png)
+[![Build status](https://ci.appveyor.com/api/projects/status/6ukh3uv4xvp8697o?svg=true)](https://ci.appveyor.com/project/Irina04041987/hw-selenide)
