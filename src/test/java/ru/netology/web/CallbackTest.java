@@ -38,7 +38,7 @@ public class CallbackTest {
 
     @Test
     void shouldSubmitRequest() {
-        driver.get("http://localhost:7777");
+        driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Екатерина Рябова");
         driver.findElement(By.cssSelector("[data-test-id=phone] input ")).sendKeys("+79129686112");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
@@ -49,7 +49,7 @@ public class CallbackTest {
 
     @Test
     void shouldSubmitRequestWithoutID() {
-        driver.get("http://localhost:7777");
+        driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("input[type='text']")).sendKeys("Екатерина Рябова");
         driver.findElement(By.cssSelector("input[type='tel']")).sendKeys("+79129686112");
         driver.findElement(By.cssSelector(".checkbox__box")).click();
